@@ -1,32 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="">
 <head>
-  <title>Search Bar Example</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale-1.0">
+    <tittle>Responsive Personal Portfolio Website Design | @Sadee</tittle>
 </head>
-<body>
-  <input type="text" id="search" placeholder="Search...">
-  <p id="output"></p>
-
-  <script>
-    var input = document.getElementById('search');
-    var output = document.getElementById('output');
-
-    function performSearch() {
-      var searchTerm = input.value;
-
-      // Perform some processing or logic based on the search term
-      // For example, you can check if it matches a specific value or use regular expressions
-
-      // Simulate a simple example by checking for a specific search term
-      if (searchTerm === 'hello') {
-        output.innerHTML = 'You typed: ' + searchTerm;
-      } else {
-        output.innerHTML = 'No matching result for the search term: ' + searchTerm;
-      }
-    }
-
-    // Add event listener to the input field for the 'change' event
-    input.addEventListener('change', performSearch);
-  </script>
-</body>
 </html>
